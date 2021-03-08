@@ -15,6 +15,8 @@
 		654097E825F25C65005BF9E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 654097E625F25C65005BF9E0 /* LaunchScreen.storyboard */; };
 		654097F325F25C65005BF9E0 /* _012_AlertControlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654097F225F25C65005BF9E0 /* _012_AlertControlerTests.swift */; };
 		654097FE25F25C65005BF9E0 /* _012_AlertControlerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654097FD25F25C65005BF9E0 /* _012_AlertControlerUITests.swift */; };
+		6542ED7C25F398D300FF863A /* UrlNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6542ED7B25F398D300FF863A /* UrlNavigation.swift */; };
+		654CBB2225F360EB001D908B /* Leader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 654CBB2125F360EB001D908B /* Leader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		654097F925F25C65005BF9E0 /* 2012_AlertControlerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 2012_AlertControlerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		654097FD25F25C65005BF9E0 /* _012_AlertControlerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _012_AlertControlerUITests.swift; sourceTree = "<group>"; };
 		654097FF25F25C65005BF9E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6542ED7B25F398D300FF863A /* UrlNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UrlNavigation.swift; sourceTree = "<group>"; };
+		654CBB2125F360EB001D908B /* Leader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				654097E425F25C65005BF9E0 /* Assets.xcassets */,
 				654097E625F25C65005BF9E0 /* LaunchScreen.storyboard */,
 				654097E925F25C65005BF9E0 /* Info.plist */,
+				654CBB2125F360EB001D908B /* Leader.swift */,
+				6542ED7B25F398D300FF863A /* UrlNavigation.swift */,
 			);
 			path = 2012_AlertControler;
 			sourceTree = "<group>";
@@ -258,8 +264,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				654CBB2225F360EB001D908B /* Leader.swift in Sources */,
 				654097E025F25C61005BF9E0 /* ViewController.swift in Sources */,
 				654097DC25F25C61005BF9E0 /* AppDelegate.swift in Sources */,
+				6542ED7C25F398D300FF863A /* UrlNavigation.swift in Sources */,
 				654097DE25F25C61005BF9E0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -434,16 +442,18 @@
 		6540980325F25C65005BF9E0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = QJ38K4FTCM;
 				INFOPLIST_FILE = 2012_AlertControler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vikash.-012-AlertControler";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2012.vamsivikash24.77;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,16 +463,18 @@
 		6540980425F25C65005BF9E0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3;
 				DEVELOPMENT_TEAM = QJ38K4FTCM;
 				INFOPLIST_FILE = 2012_AlertControler/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "vikash.-012-AlertControler";
+				MARKETING_VERSION = 1.2;
+				PRODUCT_BUNDLE_IDENTIFIER = com.2012.vamsivikash24.77;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
